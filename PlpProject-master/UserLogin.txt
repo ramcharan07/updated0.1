@@ -1,0 +1,6 @@
+insert into userlogin values('Sufall','hello123','Agent');
+insert into userlogin values('Akshay','hi123','agent');
+insert into userlogin values('Ram Charan','abcd1234','Admin');
+insert into userlogin values('Jaya','abcd1234','admin');
+insert into userlogin values('Chandana','abcd121134','User');
+insert into userlogin values('Sushanth','hey12','User');

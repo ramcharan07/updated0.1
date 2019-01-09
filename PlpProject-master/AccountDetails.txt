@@ -1,0 +1,4 @@
+insert into AccountDetails values('Ishaan','Ishaan Das','Kasba','Kolkata','Westbengal','700107','Restaurant','1000000000');
+insert into AccountDetails values('Susi','Susi Jangala','XYZ','Abc','Andhra','700187','Business Auto','1200000000');
+insert into AccountDetails values('Jay','Jay Ghosh','XYZ','Kolkata','Westbengal','700147','Apartment','1300000000');
+insert into AccountDetails values('Soumyadeep','Soumyadeep Barman','XY','Malda','Westbengal','700137','General Merchant','1400000000');

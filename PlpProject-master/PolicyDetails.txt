@@ -1,0 +1,4 @@
+insert into PolicyDetails values(10000,10,1000000000);
+insert into PolicyDetails values(100000,11,1200000000);
+insert into PolicyDetails values(1000000,12,1300000000);
+insert into PolicyDetails values(10000000,14,1400000000);

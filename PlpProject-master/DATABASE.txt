@@ -1,0 +1,11 @@
+1) Create table userlogin(username varchar2(20),password varchar2(10),rolecode varchar2(10));
+->2) create table AccountDetails(username varchar2(20), insured_name varchar2(30),insured_street varchar2(40),insured_city varchar2(15), insured_state varchar2(15),insured_zip number(6),business_segment varchar2(30),account_number number(10) primary key,agent_Name varchar2(10));
+3) create table PolicyDetails(premium number(20),policy_number number(10) primary key,account_number number(10), foreign key(account_number) references AccountDetails(account_number));
+->4) create table ReportGeneration(question varchar2(80), answer varchar2(30),weightage number(5),policy_number number(10) , foreign key(policy_number) references PolicyDetails(policy_number));
+
+
+
+
+
+
+select a.agent_Name,
